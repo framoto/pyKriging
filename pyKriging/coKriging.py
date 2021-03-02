@@ -2,7 +2,9 @@ __author__ = 'cpaulson'
 
 import numpy as np
 from numpy.matlib import rand,zeros,ones,empty,eye
+from sys import exit
 from pyKriging import kriging
+
 
 class coKriging():
     def __init__(self, Xc, yc, Xe, ye):
